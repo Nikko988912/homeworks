@@ -9,6 +9,9 @@ public class Department {
     public Department(String name) {
         this.name = name;
     }
+    public String getName (){
+        return name;
+    }
     public void addEmployee(Employee employee){
     if (employee==null){
         System.out.println("Employee is null");
